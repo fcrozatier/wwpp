@@ -1,0 +1,141 @@
+<svg viewBox="0 0 1500 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- y = 50 -->
+  <a href="https://example.com" target="_blank">
+    <rect x="700" y="45" width="180" height="60" fill="lightgreen" />
+    <text y="70" text-anchor="middle">
+      <tspan x="790" dy="0">DOM Part</tspan>
+      <tspan x="790" dy="1.2em">Serialization / Hydration</tspan>
+    </text>
+  </a>
+  <line x1="880" y1="75" x2="950" y2="75" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://example.com" target="_blank">
+    <rect x="950" y="50" width="160" height="50" fill="lightgreen" />
+    <text y="70" text-anchor="middle">
+      <tspan x="1030" dy="0">Declarative</tspan>
+      <tspan x="1030" dy="1.2em">Template Hydration</tspan>
+    </text>
+  </a>
+  <line x1="1110" y1="75" x2="1200" y2="260" stroke="black" marker-end="url(#arrow)" />
+  <!-- y = 150 -->
+  <a href="https://example.com" target="_blank">
+    <rect x="450" y="150" width="160" height="50" fill="lightgreen" />
+    <text x="465" y="180" text-anchor="start">Inline Script Exports</text>
+  </a>
+  <line x1="610" y1="175" x2="710" y2="175" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://gist.github.com/EisenbergEffect/8ec5eaf93283fb5651196e0fdf304555" target="_blank">
+    <rect x="710" y="150" width="160" height="50" fill="lightgreen" />
+    <text x="740" y="180" text-anchor="start">HTML Modules</text>
+  </a>
+  <line x1="870" y1="180" x2="950" y2="270" stroke="black" marker-end="url(#arrow)" />
+  <!-- y = 230 -->
+  <a href="https://github.com/tc39/proposal-decorators" target="_blank">
+    <rect x="450" y="230" width="160" height="50" fill="plum" />
+    <text x="490" y="260" text-anchor="start">Decorators</text>
+  </a>
+  <line x1="610" y1="265" x2="700" y2="265" stroke="black" marker-end="url(#arrow)" />
+  <!-- y = 250 -->
+  <a href="https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts.md" target="_blank">
+    <rect x="10" y="250" width="100" height="50" fill="lightblue" />
+    <text x="60" y="280" text-anchor="middle" fill="black">DOM Parts</text>
+  </a>
+  <line x1="110" y1="290" x2="210" y2="465" stroke="black" marker-end="url(#arrow)" />
+  <path d="M110 260 L210 75 H700" fill="transparent" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://github.com/tc39/proposal-signals" target="_blank">
+    <rect x="200" y="270" width="160" height="50" fill="plum" />
+    <text x="255" y="300" text-anchor="start">Signals</text>
+  </a>
+  <line x1="360" y1="290" x2="700" y2="290" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://example.com" target="_blank">
+    <rect x="700" y="250" width="180" height="60" fill="lightblue" />
+    <text y="275" text-anchor="middle">
+      <tspan x="795" dy="0">ReactiveHTMLElement</tspan>
+      <tspan x="795" dy="1.2em">Base class</tspan>
+    </text>
+  </a>
+  <line x1="880" y1="280" x2="950" y2="280" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://gist.github.com/EisenbergEffect/8ec5eaf93283fb5651196e0fdf304555" target="_blank">
+    <rect x="950" y="250" width="180" height="60" fill="lightgreen" />
+    <text y="275" text-anchor="middle">
+      <tspan x="1040" dy="0">Declarative</tspan>
+      <tspan x="1040" dy="1.2em">Custom Elements</tspan>
+    </text>
+  </a>
+  <line x1="1130" y1="280" x2="1200" y2="280" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://example.com" target="_blank">
+    <rect x="1200" y="230" width="180" height="100" fill="lightgreen" />
+    <text y="270" text-anchor="middle">
+      <tspan x="1290" dy="0">Declarative</tspan>
+      <tspan x="1290" dy="1.2em">Custom Element</tspan>
+      <tspan x="1290" dy="1.2em">Hydration</tspan>
+    </text>
+  </a>
+  <!-- y = 350 -->
+  <a href="https://example.com" target="_blank">
+    <rect x="200" y="350" width="180" height="50" fill="lightblue" />
+    <text x="220" y="380" text-anchor="start">DOM Tree Scheduler</text>
+  </a>
+  <line x1="380" y1="375" x2="450" y2="375" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://example.com" target="_blank">
+    <rect x="450" y="350" width="180" height="60" fill="lightblue" />
+    <text y="375" text-anchor="middle">
+      <tspan x="540" dy="0">Fine Grained</tspan>
+      <tspan x="540" dy="1.2em">Reactive Templates</tspan>
+    </text>
+  </a>
+  <line x1="630" y1="375" x2="700" y2="375" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://example.com" target="_blank">
+    <rect x="700" y="350" width="180" height="60" fill="lightgreen" />
+    <text y="375" text-anchor="middle">
+      <tspan x="795" dy="0">Declarative</tspan>
+      <tspan x="795" dy="1.2em">HTML Templates</tspan>
+    </text>
+  </a>
+  <line x1="880" y1="375" x2="950" y2="290" stroke="black" marker-end="url(#arrow)" />
+  <!-- y = 450 -->
+  <a href="https://example.com" target="_blank">
+    <rect x="210" y="450" width="160" height="50" fill="lightblue" />
+    <text x="220" y="480" text-anchor="start">DOM Template API</text>
+  </a>
+  <line x1="370" y1="465" x2="450" y2="400" stroke="black" marker-end="url(#arrow)" />
+  <path d="M370 475 H600 L700 400" stroke="black" fill="none" marker-end="url(#arrow)" />
+  <a href="https://github.com/css-modules/css-modules" target="_blank">
+    <rect x="710" y="450" width="160" height="50" fill="lightgreen" />
+    <text x="740" y="480" text-anchor="start">CSS Modules</text>
+  </a>
+  <line x1="870" y1="480" x2="950" y2="480" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://example.com" target="_blank">
+    <rect x="950" y="450" width="180" height="60" fill="lightgreen" />
+    <text y="475" text-anchor="middle">
+      <tspan x="1040" dy="0">Declarative</tspan>
+      <tspan x="1040" dy="1.2em">CSS Modules</tspan>
+    </text>
+  </a>
+  <line x1="1130" y1="480" x2="1200" y2="300" stroke="black" marker-end="url(#arrow)" />
+  <line x1="1130" y1="490" x2="1200" y2="560" stroke="black" marker-end="url(#arrow)" />
+  <!-- y = 550 -->
+  <a class="done" href="https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Declarative-Shadow-DOM.md"
+    target="_blank">
+    <rect x="700" y="550" width="180" height="60" fill="lightgreen" />
+    <text y="575" text-anchor="middle">
+      <tspan x="795" dy="0">Declarative</tspan>
+      <tspan x="795" dy="1.2em">Shadow DOM ✅</tspan>
+    </text>
+  </a>
+  <line x1="880" y1="575" x2="1200" y2="575" stroke="black" marker-end="url(#arrow)" />
+  <line x1="880" y1="565" x2="950" y2="500" stroke="black" marker-end="url(#arrow)" />
+  <a href="https://example.com" target="_blank">
+    <rect x="1200" y="550" width="180" height="60" fill="gold" />
+    <text y="575" text-anchor="middle">
+      <tspan x="1295" dy="0">General Web</tspan>
+      <tspan x="1295" dy="1.2em">Component SSR</tspan>
+    </text>
+  </a>
+
+  <!--  -->
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="black" />
+    </marker>
+  </defs>
+</svg>
