@@ -9,7 +9,7 @@
     <h1>Web of Web Platform Proposals</h1>
     <svg viewBox="0 0 1500 700" xmlns="http://www.w3.org/2000/svg">
       <!-- y = 50 -->
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="700" y="45" width="180" height="60" fill="lightgreen" />
         <text y="70" text-anchor="middle">
           <tspan x="790" dy="0">DOM Part</tspan>
@@ -24,7 +24,7 @@
         stroke="black"
         marker-end="url(#arrow)"
       />
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="950" y="50" width="160" height="50" fill="lightgreen" />
         <text y="70" text-anchor="middle">
           <tspan x="1030" dy="0">Declarative</tspan>
@@ -40,7 +40,7 @@
         marker-end="url(#arrow)"
       />
       <!-- y = 150 -->
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="450" y="150" width="160" height="50" fill="lightgreen" />
         <text x="465" y="180" text-anchor="start">Inline Script Exports</text>
       </a>
@@ -114,7 +114,7 @@
         stroke="black"
         marker-end="url(#arrow)"
       />
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="700" y="250" width="180" height="60" fill="lightblue" />
         <text y="275" text-anchor="middle">
           <tspan x="795" dy="0">ReactiveHTMLElement</tspan>
@@ -147,7 +147,7 @@
         stroke="black"
         marker-end="url(#arrow)"
       />
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="1200" y="230" width="180" height="100" fill="lightgreen" />
         <text y="270" text-anchor="middle">
           <tspan x="1290" dy="0">Declarative</tspan>
@@ -156,7 +156,10 @@
         </text>
       </a>
       <!-- y = 350 -->
-      <a href="https://example.com" target="_blank">
+      <a
+        href="https://github.com/WICG/webcomponents/issues/1055"
+        target="_blank"
+      >
         <rect x="200" y="350" width="180" height="50" fill="lightblue" />
         <text x="220" y="380" text-anchor="start">DOM Tree Scheduler</text>
       </a>
@@ -168,7 +171,7 @@
         stroke="black"
         marker-end="url(#arrow)"
       />
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="450" y="350" width="180" height="60" fill="lightblue" />
         <text y="375" text-anchor="middle">
           <tspan x="540" dy="0">Fine Grained</tspan>
@@ -183,7 +186,10 @@
         stroke="black"
         marker-end="url(#arrow)"
       />
-      <a href="https://example.com" target="_blank">
+      <a
+        href="https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts-Declarative-Template.md"
+        target="_blank"
+      >
         <rect x="700" y="350" width="180" height="60" fill="lightgreen" />
         <text y="375" text-anchor="middle">
           <tspan x="795" dy="0">Declarative</tspan>
@@ -199,7 +205,10 @@
         marker-end="url(#arrow)"
       />
       <!-- y = 450 -->
-      <a href="https://example.com" target="_blank">
+      <a
+        href="https://github.com/WICG/webcomponents/blob/gh-pages/proposals/DOM-Parts-Imperative.md"
+        target="_blank"
+      >
         <rect x="210" y="450" width="160" height="50" fill="lightblue" />
         <text x="220" y="480" text-anchor="start">DOM Template API</text>
       </a>
@@ -232,7 +241,7 @@
         stroke="black"
         marker-end="url(#arrow)"
       />
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="950" y="450" width="180" height="60" fill="lightgreen" />
         <text y="475" text-anchor="middle">
           <tspan x="1040" dy="0">Declarative</tspan>
@@ -283,7 +292,7 @@
         stroke="black"
         marker-end="url(#arrow)"
       />
-      <a href="https://example.com" target="_blank">
+      <a target="_blank">
         <rect x="1200" y="550" width="180" height="60" fill="gold" />
         <text y="575" text-anchor="middle">
           <tspan x="1295" dy="0">General Web</tspan>
@@ -318,6 +327,12 @@
 
       a {
         color: black;
+        border-radius: 3px;
+
+        &[href]:hover {
+          outline: 1px solid;
+          outline-offset: -1px;
+        }
       }
 
       .done {
